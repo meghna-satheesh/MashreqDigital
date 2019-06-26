@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MashreqDigital">
+              <span class="suite-name border-failed">MashreqDigital</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MashreqDigital">
+                    <span>C:\Users\lenovo\eclipse-workspace\MashreqDigital\TestNG_XMLs\ContactErrorMessageValidation.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MashreqDigital">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MashreqDigital">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MashreqDigital">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MashreqDigital">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MashreqDigital">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MashreqDigital">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MashreqDigital" class="hide-methods failed suite-MashreqDigital"> (hide)</a> <!-- hide-methods failed suite-MashreqDigital -->
+                      <a href="#" panel-name="suite-MashreqDigital" class="show-methods failed suite-MashreqDigital"> (show)</a> <!-- show-methods failed suite-MashreqDigital -->
+                    </span>
+                    <div class="method-list-content failed suite-MashreqDigital">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqDigital" title="com.mashreq.runner.BaseTest" hash-for-method="contactLinkCheck">contactLinkCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MashreqDigital -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MashreqDigital" class="hide-methods passed suite-MashreqDigital"> (hide)</a> <!-- hide-methods passed suite-MashreqDigital -->
+                      <a href="#" panel-name="suite-MashreqDigital" class="show-methods passed suite-MashreqDigital"> (show)</a> <!-- show-methods passed suite-MashreqDigital -->
+                    </span>
+                    <div class="method-list-content passed suite-MashreqDigital">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqDigital" title="com.mashreq.runner.BaseTest" hash-for-method="contactPageErrorMessageValidation">contactPageErrorMessageValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqDigital" title="com.mashreq.runner.BaseTest" hash-for-method="loginValidation">loginValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MashreqDigital -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MashreqDigital" class="panel MashreqDigital">
+          <div class="suite-MashreqDigital-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mashreq.runner.BaseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactLinkCheck">
+                  </a> <!-- contactLinkCheck -->
+                  <span class="method-name">contactLinkCheck</span>
+                  <div class="stack-trace">java.lang.AssertionError: Contact page is not loaded expected [true] but found [false]
+	at com.mashreq.pages.HomePageLoad.validateContactLink(HomePageLoad.java:63)
+	at com.mashreq.runner.BaseTest.contactLinkCheck(BaseTest.java:51)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MashreqDigital-class-failed -->
+          <div class="suite-MashreqDigital-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mashreq.runner.BaseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactPageErrorMessageValidation">
+                  </a> <!-- contactPageErrorMessageValidation -->
+                  <span class="method-name">contactPageErrorMessageValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValidation">
+                  </a> <!-- loginValidation -->
+                  <span class="method-name">loginValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MashreqDigital-class-passed -->
+        </div> <!-- panel MashreqDigital -->
+        <div panel-name="test-xml-MashreqDigital" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lenovo\eclipse-workspace\MashreqDigital\TestNG_XMLs\ContactErrorMessageValidation.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;MashreqDigital&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NavigationBarValidation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mashreq.runner.BaseTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginValidation&quot;/&gt;
+          &lt;include name=&quot;contactLinkCheck&quot;/&gt;
+          &lt;include name=&quot;contactPageErrorMessageValidation&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.mashreq.runner.BaseTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NavigationBarValidation --&gt;
+&lt;/suite&gt; &lt;!-- MashreqDigital --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MashreqDigital" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MashreqDigital</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">NavigationBarValidation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MashreqDigital" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MashreqDigital</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MashreqDigital" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MashreqDigital</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MashreqDigital');
+function tableData_MashreqDigital() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginValidation')
+data.setCell(0, 2, 'com.mashreq.runner.BaseTest')
+data.setCell(0, 3, 43093);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'contactPageErrorMessageValidation')
+data.setCell(1, 2, 'com.mashreq.runner.BaseTest')
+data.setCell(1, 3, 20899);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'contactLinkCheck')
+data.setCell(2, 2, 'com.mashreq.runner.BaseTest')
+data.setCell(2, 3, 12131);
+window.suiteTableData['MashreqDigital']= { tableData: data, tableDiv: 'times-div-MashreqDigital'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-MashreqDigital">
+              </div> <!-- times-div-MashreqDigital -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MashreqDigital" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MashreqDigital</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MashreqDigital" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mashreq.runner.BaseTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectSubProductFieldCheck</span>
+                <br/>
+                <span class="ignored-method-name">navigationMenuCheck</span>
+                <br/>
+                <span class="ignored-method-name">subProductFieldwithValueCheck</span>
+                <br/>
+                <span class="ignored-method-name">mobbileNumberCheck</span>
+                <br/>
+                <span class="ignored-method-name">mashreqNewsDisplayCheck</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MashreqDigital" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mashreq.runner.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginValidation</span>
+                <span class="method-start">11345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">contactLinkCheck</span>
+                <span class="method-start">55419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactPageErrorMessageValidation</span>
+                <span class="method-start">68183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">89087 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
